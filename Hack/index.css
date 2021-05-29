@@ -1,0 +1,50 @@
+body{
+    font-style: italic !important;
+    font-size: 30px !important;
+    background-color: black;
+}
+
+
+
+    .scroll-left {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: rgb(81, 52, 247);
+    color: whitesmoke;
+    border: 1px solid rgb(255, 173, 211);
+}
+  .scroll-left p {
+    position: absolute;
+    width: 90%;
+    height: 900%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    transform: translateX(100%);
+
+    animation: scroll-left 15s linear infinite;
+  }
+
+    @keyframes scroll-left {
+        0% {
+          transform: translateX(40%);
+        }
+        100% {
+          transform: translateX(-40%);
+        }
+      }
+      .flex-continer1 {
+        width: 400px;
+        height: 250px;
+        place-items: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+
+      body{
+      font-size:35px ;
+      
+      font-style: unset ;
+       colorgroup:rgb(255, 255, 255);
+      }
